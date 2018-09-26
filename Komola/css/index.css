@@ -1,0 +1,590 @@
+/*start the global values*/
+*
+{
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -o-box-sizing: border-box;
+     box-sizing: border-box;
+}
+body
+{   
+    background-color: #EBEBEB;
+}
+.ground
+{
+    background-image: url(../IMG/ground.gif);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin: 0px auto;
+    position: relative;
+}
+h1,h2,h3,h4,h5,h6.lead
+{
+     font-family: 'Droid Sans', sans-serif;
+}
+.container
+{
+     width:90%;
+     margin: auto;    
+}
+ul
+{
+     list-style: none;
+     padding: 0;
+     margin: 0;    
+}
+.clearfix
+{
+    clear: both;   
+}
+/*end the global values*/
+/*****************the syle of header***********************/
+.header
+{
+    background-image: url(../IMG/header.gif);
+    opacity: 0.8;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 600px;
+    opacity: .8;
+    text-align: center;
+    overflow:hidden    
+}
+.header .container p
+{
+    color:white;
+    font-size:50px; 
+}
+.header .container span
+{
+     color:white;
+     font-size:15px; 
+}
+.header .container button{
+      border-radius:10px;
+      padding: 15px 55px;
+      margin-top: 40px;
+      color:white;
+      background: none;
+      border-color: white;
+ }
+.header .container button:hover{
+      background-color:white;
+      color: red;
+     -moz-transition:all 2s ease-in-out;
+     -webkit-transition:all 2s ease-in-out;
+     -o-transition:all 2s ease-in-out;
+      transition:all 2s ease-in-out;
+ }
+/*****************the syle of list***********************/
+.list
+{
+    background-color:white;
+    border-radius:10px; 
+    height: 70px;
+    opacity: 0.8;
+}
+.list .container ul  li
+{
+    float: right;   
+}
+.list .container ul li a
+{
+   text-decoration: none;
+    color:black;
+}
+.list .container ul li 
+{
+    float: left;
+    font-size:20px;
+    margin:12px 5px 0px 0px;
+    padding:5px;
+    position: relative;
+    bottom:70px;
+    left:700px; 
+}
+.list li.active a,
+.list li a:hover
+{
+    background-color: orangered;
+    border-radius:10px;
+    -moz-transition:all 1s ease-in-out;
+    -webkit-transition:all 1s ease-in-out;
+    -o-transition:all 1s ease-in-out;
+    transition:all 1s ease-in-out;
+    padding:10px;
+}
+/*****************the syle of our_services***********************/
+.our-services .container{
+    background-color:white;
+    margin-top:50px;
+    border:1s solid;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    text-align:center;
+    overflow:hidden;
+    height:700px;
+    opacity: 0.8;
+}
+.our-services .container h1
+{
+    color:orangered;
+}
+.our-services .container a
+{
+    text-decoration: none;
+}
+.our-services .container >div{    
+    float: left;
+    margin-left: 5%;
+    width: 25%;
+    padding: 10px;
+    margin-top: 15px;
+}
+.our-services .container >div :hover{    
+    -moz-transition:all 1s ease-in-out;
+    -webkit-transition:all 1s ease-in-out;
+    -o-transition:all 1s ease-in-out;
+    transition:all 1s ease-in-out;
+    color: orangered;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+ p
+{
+    color:black;
+    letter-spacing: -1px
+}
+/*****************the syle of ved(vedio)***********************/
+.ved{
+   background-image: url(../img/header2.gif);
+    opacity: 0.8;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 400px;
+    margin-top: 50px;
+    text-align: center    
+}
+/*****************the syle of simple***********************/
+.simple .container{
+   background-color:white;
+    opacity: 0.8;
+    margin-top:50px;
+    border:1s solid;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    text-align:center;
+    overflow:hidden;
+    height:880px;
+    text-align: center
+}
+.simple .container h1
+{
+    color:orangered;
+    padding-top:30px;
+}
+.simple .container >div
+{
+    width: 20%;
+    border:1px solid;
+    height:500px;
+    float: left;
+    margin-left: 40px; 
+    margin-top: 40px  
+}
+.simple .container >div button
+{
+  color: #FFF;
+  background-color: #ED4F2E;
+  border-radius: 30px;
+  border: 1px solid;
+  padding: 5px 20px;
+  margin-top: 30px;
+}
+.great
+{
+     transform: scale(1.2);
+     box-shadow: 0px 0px 5px;
+     border:1px solid #ED4F2E;
+    -moz-transition:all 1s ease-in-out;
+    -webkit-transition:all 1s ease-in-out;
+    -o-transition:all 1s ease-in-out;
+    transition:all 1s ease-in-out;    
+}
+.h
+{
+    background-color:rgba(0, 0, 0, 0.12);
+    color: black
+}
+.h1
+{
+    background-color:#ED4F2E;color:white
+}
+/*****************the syle of best***********************/
+.best{
+   background-image: url(../img/header1.gif);
+    opacity:0.8;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 400px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+.best .container button{
+     border-radius: 10px;
+     padding: 15px 55px;
+     margin-top: 40px;
+     background:none;
+    -moz-transition:all 1s ease-in-out;
+    -webkit-transition:all 1s ease-in-out;
+    -o-transition:all 1s ease-in-out;
+    transition:all 1s ease-in-out;
+}
+.best .container button:hover
+{
+background-color: white;
+color: orangered;
+}
+/*****************the syle of portfolio***********************/
+.portfolio
+{
+ text-align: center;    
+}
+.portfolio h1
+{
+     color:orangered;
+    padding-top:30px;   
+}
+.portfolio .portfolio-filter li
+{
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin-bottom:40px;    
+  transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s; 
+}
+.portfolio .portfolio-filter li:hover
+{
+    background-color:orangered;
+    border:1px solid orangered;
+    border-radius:30px;
+    color: white;   
+}
+.portfolio .portfolio-filter li.active
+{
+    background-color:orangered;
+    border:1px solid orangered;
+    border-radius:30px;
+    color: white; 
+}
+.portfolio .gallary
+{
+     overflow: hidden;   
+}
+.portfolio .gallary .row > div
+{
+     float: left;   
+     width: 32%;
+     height: 225px;    
+     margin-bottom: 2%;
+     position: relative;    
+}
+.portfolio .gallary .row > div:nth-child(2)
+{
+     margin-left: 2%;   
+     margin-right: 2%;   
+}
+.portfolio .gallary .row > div img
+{
+     width: 100%;
+     height: 100%;
+    border-radius: 10%;
+}
+.portfolio .gallary .mix
+{
+    display: none;
+}
+/*****************the syle of sup***********************/
+.sup
+{
+    height:500px;
+    overflow: hidden 
+}
+.sup >div
+{
+    width: 50%;
+    height: 100%;
+    margin-top:50px 
+}
+.sup .a
+{
+    background-color: red;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    float: left;
+}
+.sup .a .slider-o
+{  
+    height: 60%;
+    width: 80%;
+    margin: 80px auto;
+}
+.sup .a  .slider-o input
+{
+    visibility: hidden;
+    position:absolute; 
+    top:-200px;
+}
+.sup .a .slider-o label
+{
+    position:absolute;
+    width:16px; 
+    height:16px;
+    border-radius:50%;
+    background-color:#333; 
+    bottom:5px;200px;
+    cursor:pointer;
+}
+.sup .a  .slider-o .label
+{
+    position:relative;
+    width:135px;
+    height:30px; 
+}
+.sup .a  .slider-o .label label:nth-child(1){left:220px; top:330px;}
+.sup .a  .slider-o .label label:nth-child(2){left:245px; top:330px;}
+.sup .a  .slider-o .label label:nth-child(3){left:270px; top:330px;}
+.sup .a  .slider-o .slider-image
+{
+    position: relative; 
+    display: block; 
+    width:100%; 
+    height:100%;
+    overflow:hidden;
+    text-align: center
+}
+.sup .a  .slider-o .slider-image ul
+{
+    position: relative; 
+    margin:0px; 
+    padding:0px; 
+    list-style:none; 
+    overflow:hidden; 
+    width:500%; 
+    height:100%; 
+    transition:all 2s ease-out; 
+}
+.sup .a  .slider-o .slider-image ul h3
+{
+    position:relative;
+    bottom:30px;    
+    font-size: 40px;    
+}
+.sup .a  .slider-o .slider-image ul q
+{
+    position: relative;
+    bottom:50px;
+    color: white;
+}
+.sup .a  .slider-o .slider-image ul li {position:relative; width:20%; height:100%; float:left;}
+.sup .a  .slider-o .slider-image ul li img{ width:90px; height:70px; border-radius:50%;}
+.sup .a  .slider-o input[type=radio]#image1:checked~.label label[for=image1] { background-color:white; }
+.sup .a  .slider-o input[type=radio]#image2:checked~.label label[for=image2] { background-color: white; }
+.sup .a  .slider-o input[type=radio]#image3:checked~.label label[for=image3] { background-color: white; }
+.sup .a  .slider-o input[type=radio]#image1:checked~.slider-image>ul{left:0%;}
+.sup .a  .slider-o input[type=radio]#image2:checked~.slider-image>ul{left:-100%;}
+.sup .a  .slider-o input[type=radio]#image3:checked~.slider-image>ul{left:-200%;}
+.sup .b
+{
+    background-color: black;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    float: right;
+}
+.sup .b input[type="email"]
+{
+    padding: 10px 160px 10px 50px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom:30px
+}
+.sup .b input[type="submit"]
+{
+   background-color:orangered;
+   border-radius:10px; 
+   padding: 10px 50px;
+}
+/*****************the syle of contact***********************/
+.contact .continer{
+    background-color:white;
+    opacity: 0.8;
+    margin-top:50px;
+    border:1s solid;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    text-align:center;
+    overflow:hidden;
+    height:800px;
+    text-align: center;
+}
+.contact .continer form input
+{
+      margin: 10px;
+      padding: 30px 260px 35px 5px;
+    border-radius: 10px;
+}
+.contact .continer form textarea
+{
+    margin: 10px;
+    padding: 30px 320px 110px 5px;
+    border-radius: 10px;
+}
+.contact .continer form input[type="submit"]
+{
+    background-color: #FF4500;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 50px;
+    margin-top: 30px
+}
+/*****************the syle of about***********************/
+.about
+{
+    overflow: hidden;
+    background-color: black;
+    opacity: 0.8;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 350px;
+    margin-top:50px;
+    color: white
+}
+.about >div
+{
+    float:left;
+    width:20%;
+    text-align: center;
+    margin-left: 25px; 
+}
+.about >div h1
+{
+    padding-top: 40px;
+    margin:0px;
+    color: wheat
+}
+.about >div i
+{
+    margin: 10px;
+}
+.about img:hover
+{
+    transform: scale(1.2);
+    transition:all 1s ease-in-out 
+}
+.about input
+{
+    display: inline-block
+}
+.about input[type="email"]
+{
+    color: #FFF;
+    background-color: rgba(255, 255, 255, 0.28);
+    margin: -8px;
+    padding: 5px;
+    border: 0px none;
+    border-radius: 5px;
+ }
+.about input[type="submit"]
+{
+ background-color: #ED4F2E;
+ border: 0px;
+ padding: 5px;
+ border-radius: 7px;    
+}
+.about .last
+{
+    padding:0px;
+    margin:0px 
+}
+.about .last form input[type="submit"]
+{
+position: relative;
+left:5px;    
+}
+.about .last ul li
+{
+    display: inline-block;
+    border-radius:10px;
+    border:1px solid  
+}
+.about .last ul li:hover,
+.about .last ul li a:hover
+{
+    border-color:#ED4F2E;color: #ED4F2E 
+}
+.about .last ul li a
+{
+    color: white
+}
+/*****************the syle of copy***********************/
+.copy
+{
+    background-color:blue;
+    opacity: 0.5;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height:30px;
+    font-size: 10px;
+    line-height: 25px;
+}
+.copy h1
+{
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+.copy h1 span
+{
+color: orangered;     
+}
+/*****************the syle of end up***********************/
+.end{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color:#FF8C74;
+    color: white;
+    border-radius:50%;
+    z-index: 999;
+    padding: 10px;
+    font-size:20px;
+}
+.end a
+{
+    text-decoration: none;
+}
+.up
+{
+    display: none;
+}

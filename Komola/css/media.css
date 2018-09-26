@@ -1,0 +1,197 @@
+/*smart phones & tablets*/
+@media (min-width:481px) and (max-width:767px){
+/*start header*/    
+.header .container p
+{
+    font-size:18px; 
+}
+    .header .container span
+{
+     font-size:9px; 
+}
+.header .container button{
+      padding: 2px 40px;
+ }    
+/*end header*/     
+/*start list*/    
+.list
+{
+    background-color:aqua;
+    height:50px; 
+}
+
+.list .container ul li a
+{
+    color:white;
+}
+.list .container ul li 
+{
+    font-size:13px;
+    padding:3px;
+    position: relative;
+    bottom:40px;
+    left:300px; 
+}
+.list li.active a,
+.list li a:hover
+{
+    background-color:red;
+}
+.list .container img
+{
+    width:140px;
+}
+/*end list*/
+/*start our-services*/    
+.our-services .container{
+    height:300px;
+}
+.our-services .container h1
+{
+    color:red;
+}
+.our-services .container a
+{
+    text-decoration: none;
+}
+.our-services .container >div{    
+    margin-left: 5%;
+    width:10%;
+
+}
+.our-services .container h2
+{ 
+     font-size:11px; 
+}
+.our-services .container i
+{ 
+     font-size:20px; 
+}
+.our-services .container p
+{ 
+     font-size:9px; 
+}
+/*end our-services*/
+/*start simple*/    
+.simple .container{
+    height:550px;
+}
+.simple .container >div
+{
+    width: 17.5%;
+    height:300px; 
+}
+.simple .container >div button
+{
+  padding: 3px 5px;
+  margin-top:-10px;
+}
+.simple .container p
+{
+   font-size:8px; 
+}
+.h1
+{
+    font-size:10px; 
+}
+/*end simple*/
+/*start best*/
+.best .container button{
+     padding: 3px 40px;
+}
+/*end best*/
+/*start sup*/    
+.sup .a  .slider-o .label label:nth-child(1){left:120px; top:320px;}
+.sup .a  .slider-o .label label:nth-child(2){left:145px; top:320px;}
+.sup .a  .slider-o .label label:nth-child(3){left:170px; top:320px;}
+.sup .a  .slider-o .slider-image ul h3
+{
+    position:relative;
+    bottom:20px;    
+    font-size:25px;    
+}
+.sup .a  .slider-o .slider-image ul q
+{
+    position: relative;
+    bottom:30px;
+    font-size:12px; 
+}    
+.sup .b input[type="email"]
+{
+    padding: 5px 80px 5px 40px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom:30px
+}
+.sup .b input[type="submit"]
+{
+   background-color:orangered;
+   border-radius:10px; 
+   padding: 10px 50px;
+}
+/*end sup*/    
+/*start contact*/    
+.contact .continer{
+    height:750px;
+}
+.contact .continer form input
+{
+      padding: 10px 240px 15px 5px;
+}
+.contact .continer form textarea
+{
+    padding: 10px 300px 90px 5px;
+}
+/*end contact*/    
+/*start about*/    
+.about
+{
+    height: 300px;
+}    
+.about >div
+{
+    width:20%;
+}
+.about >div .c
+{
+    width:110px;
+
+}
+.about >div h1
+{
+    padding-top: 40px;
+    margin:0px;
+   font-size:15px; 
+}
+.about >div p
+{
+    font-size:10px; 
+
+}
+.about >div span
+{
+    font-size:10px; 
+
+}    
+.about input[type="email"]
+{
+    padding:3px;
+    font-size:8px; 
+ }
+.about input[type="submit"]
+{
+ padding: 5px;
+font-size:8px;     
+}
+.about .last ul li i
+{
+    font-size:5px;
+}
+/*end about*/    
+/*start copy*/    
+.copy
+{
+    font-size:7px;
+}
+/*end copy*/    
+}
+
